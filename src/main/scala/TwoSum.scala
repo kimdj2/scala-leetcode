@@ -11,6 +11,6 @@ object twoSum {
       else
         count_tracker.put(nums(i), i)
     }
-	  count_tracker.toArray.map { case (_, y) => y }
+	count_tracker.toArray.map { case (_, y) => y }
   }
 }
